@@ -1,0 +1,46 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  xmlns:f="sap.f"
+  xmlns:card="sap.f.cards"
+  controllerName="com.example.stringmatchingappdemo.controller.Main">
+  <App>
+    <Page title="Employee Details">
+      <content>
+        <VBox justifyContent="Center" alignItems="Center">
+          <f:Card class="sapUiSmallMarginTop">
+            <f:header>
+              <card:Header title="Match the Address of an Employee" iconSrc="sap-icon://employee" />
+            </f:header>
+            <f:content>
+              <VBox height="240px" class="sapUiSmallMargin" justifyContent="SpaceBetween">
+                <HBox>
+                  <VBox alignItems="Start">
+                    <Label text="Employee ID" />
+                    <Input value="{/employeeid/0/employee_id}" placeholder="enter employee id" id="employeeNumberInput" liveChange=".onEmployeeNumberChange" />
+                    <Label text="Employee Address" class="sapUiSmallMarginTop" visible="{= ${/isMatched} }" />
+                    <Text text="{/employeeid/0/city}" id="employeeCityText" />
+                    <Text text="{/employeeid/0/state}" id="employeeStateText" />
+                    <Text text="{/employeeid/0/country}" id="employeeCountryText" />
+                    <Link text="Click" class="sapUiSmallMarginTop" href="{/link}" id="link1" visible="{= ${/isMatched} }" />
+                  </VBox>
+                  <VBox alignItems="Start" class="sapUiSmallMarginBegin">
+                    <Label text="UID" />
+                    <Input value="{/employeeuid/0/uid}" placeholder="enter uid number" id="uidInput" liveChange=".onUidChange" />
+                    <Label text="UID Address" class="sapUiSmallMarginTop" visible="{= ${/isMatched} }" />
+                    <Text text="{/employeeuid/0/city}" id="uidCityText" />
+                    <Text text="{/employeeuid/0/state}" id="uidStateText" />
+                    <Text text="{/employeeuid/0/country}" id="uidCountryText" />
+                    <Link text="Click" class="sapUiSmallMarginTop" href="{/link}" id="link2" visible="{= ${/isMatched} }" />
+                  </VBox>
+                </HBox>
+                <VBox justifyContent="Center" alignItems="Center">
+                  <Button text="Match" press=".onMatchButtonPress" />
+                </VBox>
+              </VBox>
+            </f:content>
+          </f:Card>
+        </VBox>
+      </content>
+    </Page>
+  </App>
+</mvc:View>

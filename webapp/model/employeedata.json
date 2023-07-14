@@ -1,0 +1,115 @@
+{
+  "employeeid": [
+    {
+      "employee_id": ""
+    },
+    {
+      "employee_id": "001",
+      "address": "126 Central Park, New York, US-10011",
+      "city": "126 Central Park",
+      "state": "New York",
+      "country": "US 10011",
+      "name": "John Doe",
+      "position": "Manager",
+      "department": "Sales"
+    },
+    {
+      "employee_id": "002",
+      "address": "87 Victoria Street London ",
+      "city": "Apsley-Way",
+      "state": "London",
+      "country": "UK-EC1A",
+      "name": "Jane Smith",
+      "position": "Developer",
+      "department": "IT"
+    },
+    {
+      "employee_id": "003",
+      "address": "402 Lakshmi Nagar,New Delhi",
+      "city": "402 Laxmi Nagar",
+      "state": "New Delhi",
+      "country": "India,110092",
+      "name": "George Wright",
+      "position": "Test Engineer",
+      "department": "IT"
+    },
+    {
+      "employee_id": "004",
+      "address": "47 Church Road Los Angeles, CA",
+      "city": "Laeva 1,",
+      "state": "Tallinn,",
+      "country": "10111 Estonia",
+      "name": "Michael Johnson",
+      "position": "Manager",
+      "department": "Finance"
+    },
+    {
+      "employee_id": "005",
+      "address": "7th Cross New Town, Toronto, Canada",
+      "city": "126 Central Park",
+      "state": "New York",
+      "country": "US-10011",
+      "name": "Emily Chen",
+      "position": "Designer",
+      "department": "Creative"
+    }
+  ],
+  "employeeuid": [
+    {
+      "uid":""
+    },
+    {
+      "address": "13th STREET, 47 W 13th St, NEW YORK, NY 10011, USA",
+      "uid": "1001",
+      "city": "126,   CENTRAL PARK,",
+      "state": "NEW YORK,",
+      "country": "US-10011.",
+      "name": "John Doe",
+      "position": "Manager",
+      "department": "Sales"
+    },
+    {
+      "address": "87. VICTORIA STREET, LONDON ",
+      "uid": "1002",
+      "city": "APSLEY WAY,",
+      "state": "LONDON",
+      "country": "UK - EC1A",
+      "name": "Jane Smith",
+      "position": "Developer",
+      "department": "IT"
+    },
+    {
+      "address": "402, LAKSHMI NAGAR, NEW DELHI",
+      "uid": "1003",
+      "city": "402,Laxmi Nagar",
+      "state": "NEW DELHI,",
+      "country": "INDIA-110092",
+      "name": "Mukesh Roy",
+      "position": "Test Engineer",
+      "department": "IT"
+    },
+    {
+      "address": "47, CHURCH ROAD, LOS ANGELES, CA",
+      "uid": "1004",
+      "city": "LAEVA-1,",
+      "state": "TALLINN,",
+      "country": "10111, ESTONIA",
+      "name": "Michael Johnson",
+      "position": "Manager",
+      "department": "Finance"
+    },
+    {
+      "address": "7th Cross, NEW TOWN,TORONTO, CANADA",
+      "uid": "1005",
+      "city": "126 Central Park",
+      "state": "New York",
+      "country": "US-10011",
+      "name": "Emily Chen",
+      "position": "Designer",
+      "department": "Creative"
+    }
+  ],
+  "isMatched": false,
+  "link": "",
+  "matchResultText": ""
+}
